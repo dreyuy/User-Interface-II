@@ -50,16 +50,18 @@ body {
 h1 {
   font-size: 40px;
   text-align: center;
+  margin: 10px;
   }
 nav a {
-  border: 1px solid white;
+  border: 0px solid 
+    white;
   border-radius: 0px;
   padding: 8px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content:center;
-  margin: 10px
+  margin: px
 }
 h2{
   font-size: 30px;
@@ -85,4 +87,9 @@ h2{
 footer{
   text-align: center;
   margin: 10px;
+  background-color: gray;
+}
+a{
+  text-decoration: none;
+  color: white
 }
