@@ -48,48 +48,110 @@ body {
   font-family: "Comic Sans MS"
   }
 h1 {
-  font-size: 40px;
+  font-size: 46px;
   text-align: center;
-  margin: 10px;
+  margin: 20px;
   }
-nav a {
-  border: 0px solid 
-    white;
-  border-radius: 0px;
-  padding: 8px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content:center;
-  margin: px
+header{
+  text-align: center;
 }
+nav {
+  margin: 30px;
+}
+nav a{
+  width: 10%;
+  margin: 10px;
+  background: gray;
+  padding: 8px;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
 h2{
   font-size: 30px;
   text-align: center;
-  margin: 5px;
+  margin: 20px;
 }
 .first{
   text-align:center;
+  margin-bottom: 15px;
 }
 .container{
   width: 600px;
   margin: 0 auto;
 }
 .second{
-  width: 200px;
+  width: 150px;
   margin:  auto;
   text-align: center;
 }
 .project{
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
 }
 footer{
-  text-align: center;
-  margin: 10px;
-  background-color: gray;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
 }
 a{
   text-decoration: none;
   color: white
+}
+
+img {
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.tree-holder {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+
+@media (max-width:800px){
+  .container{
+    width: 500px;
+  }
+  body{
+    background-color: navy;
+  }
+  .trees {
+    max-width: 85%;
+    height: auto;
+  }
+  img {
+    margin: 4px;
+  }
+  .second {
+    width: auto;
+    margin-bottom: 10px;
+  }
+
+}
+
+@media (max-width:500px){
+  .container {
+    width: 400px;
+  }
+  body{
+    background-color: gray;
+  }
+  nav a {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  nav {
+    display: flex;
+  }
+  .second {
+    
+  }
+  
+
+
 }
